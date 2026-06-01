@@ -2,7 +2,7 @@ import { useState } from "react"
 import "./App.css"
 
 export default function () {
-  const [page, setPage] = useState("main")
+  const [page, _setPage] = useState("main")
 
   return (
     <div className="App">
