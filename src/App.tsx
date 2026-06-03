@@ -7,7 +7,7 @@ export default function () {
   return (
     <div className="App">
       <div id="top" />
-      <header>
+      <header className="desktop-nav">
         <div className="content">
           <div className="logo">Ristailer</div>
 
@@ -36,6 +36,11 @@ export default function () {
 
       <section className="hero">
         <img className="hero-img" src="/img/hero3.webp" />
+      </section>
+
+      <section className="splash">
+        <img className="splash-img" src="/img/mobile.webp" />
+        <div className="logo">Ristailer</div>
       </section>
 
       <section className="highlight">
@@ -71,13 +76,10 @@ export default function () {
         <h1>Ristailer</h1>
 
         <p>
-          Etiam luctus, nunc eget vulputate porttitor, ipsum tortor elementum metus, vitae feugiat massa turpis eu leo. Ut mattis felis sit amet mauris congue suscipit. Quisque ligula dolor, mollis quis nisi vitae, faucibus suscipit mauris. Aenean venenatis turpis vel tortor ultricies hendrerit. Nam ut leo leo. Sed dapibus ex ut felis rutrum porta. In euismod libero in velit rutrum porttitor. Ut ac cursus neque.
+          Ristailer on vuonna 2025 perustettu helsinkiläinen aikuisten tanssiryhmä, joka treenaa tanssinopettaja ja koreografi Jari Haaviston johdolla esittävää suomalaista kansantanssia. Harjoittelemme kansantanssin tekniikkaa, pari- ja ryhmäkontaktia sekä Jarin Ristailerille luomia koreografioita. Meitä yhdistää tanssin ilo ja tavoitteenamme on esitettävä taso.
         </p>
         <p>
-          Nullam tristique laoreet consectetur. Nunc vitae tempus lorem. Duis auctor, neque sit amet vestibulum tristique, dolor magna efficitur tellus, ut fermentum augue eros quis tellus. Morbi massa odio, congue at risus ac, sagittis placerat enim. Mauris ac erat et diam sagittis sollicitudin. Sed arcu purus, dapibus at lobortis vitae, sodales quis leo. Nunc arcu diam, malesuada sed eros non, molestie tincidunt sapien. Fusce lobortis felis a auctor consequat. Sed eu leo ac est sollicitudin pretium. Aenean tincidunt id dolor quis rhoncus. Pellentesque scelerisque nec mi sed pellentesque. Aenean sit amet nulla ut nulla dignissim vulputate vitae id turpis. Sed varius commodo magna, lobortis vulputate magna porttitor nec. Suspendisse vehicula ac turpis sed consectetur. Phasellus convallis, orci condimentum cursus sodales, metus augue rutrum mi, consectetur imperdiet nisl mauris sit amet nibh. Aenean luctus felis quis lorem vehicula euismod.
-        </p>
-        <p>
-          Morbi mauris neque, facilisis vitae nisi vitae, accumsan varius dolor. Praesent commodo metus quis porta molestie. In tempor, libero sit amet sollicitudin molestie, elit lacus mattis lacus, a ullamcorper nisl neque at tellus. Nulla et libero sodales, faucibus velit non, interdum ipsum. Cras dignissim orci et nibh venenatis, id placerat lacus suscipit. Nunc ac leo vitae nibh congue cursus. Proin eu diam volutpat, rhoncus diam a, vestibulum ante. Nunc mi ex, mollis porta vulputate in, lobortis sed enim. Pellentesque ut porta mauris. Etiam faucibus pulvinar mollis.
+          Olemme kiinnostuneita esiintymismahdollisuuksista ja voimme tehdä jonkin verran myös pro bono -keikkoja, jos tilaisuutesi edistää tanssikulttuuria tai on muuten hyvään tarkoitukseen. Ole rohkeasti yhteydessä meihin.
         </p>
       </section>
 
@@ -89,13 +91,10 @@ export default function () {
         <h1>Treenit</h1>
 
         <p>
-          Etiam luctus, nunc eget vulputate porttitor, ipsum tortor elementum metus, vitae feugiat massa turpis eu leo. Ut mattis felis sit amet mauris congue suscipit. Quisque ligula dolor, mollis quis nisi vitae, faucibus suscipit mauris. Aenean venenatis turpis vel tortor ultricies hendrerit. Nam ut leo leo. Sed dapibus ex ut felis rutrum porta. In euismod libero in velit rutrum porttitor. Ut ac cursus neque.
+          Ristailerilla on vakiotreenit maanantaisin klo 19.30–21.00 Karviaisten koululla (Karviaistentie 1, noin 10 minuutin kävelymatka Malmin rautatieasemalta). Syksyn treenikausi on dd.mm.-dd.mm. ja syksyn kausimaksu on noin x € ja Helsingin Nuorisoseuran jäsenmaksu y € (kausimaksujen suuruutta säädetään osallistujien lukumäärän mukaan).
         </p>
         <p>
-          Nullam tristique laoreet consectetur. Nunc vitae tempus lorem. Duis auctor, neque sit amet vestibulum tristique, dolor magna efficitur tellus, ut fermentum augue eros quis tellus. Morbi massa odio, congue at risus ac, sagittis placerat enim. Mauris ac erat et diam sagittis sollicitudin. Sed arcu purus, dapibus at lobortis vitae, sodales quis leo. Nunc arcu diam, malesuada sed eros non, molestie tincidunt sapien. Fusce lobortis felis a auctor consequat. Sed eu leo ac est sollicitudin pretium. Aenean tincidunt id dolor quis rhoncus. Pellentesque scelerisque nec mi sed pellentesque. Aenean sit amet nulla ut nulla dignissim vulputate vitae id turpis. Sed varius commodo magna, lobortis vulputate magna porttitor nec. Suspendisse vehicula ac turpis sed consectetur. Phasellus convallis, orci condimentum cursus sodales, metus augue rutrum mi, consectetur imperdiet nisl mauris sit amet nibh. Aenean luctus felis quis lorem vehicula euismod.
-        </p>
-        <p>
-          Morbi mauris neque, facilisis vitae nisi vitae, accumsan varius dolor. Praesent commodo metus quis porta molestie. In tempor, libero sit amet sollicitudin molestie, elit lacus mattis lacus, a ullamcorper nisl neque at tellus. Nulla et libero sodales, faucibus velit non, interdum ipsum. Cras dignissim orci et nibh venenatis, id placerat lacus suscipit. Nunc ac leo vitae nibh congue cursus. Proin eu diam volutpat, rhoncus diam a, vestibulum ante. Nunc mi ex, mollis porta vulputate in, lobortis sed enim. Pellentesque ut porta mauris. Etiam faucibus pulvinar mollis.
+          Ristailer ottaa syksyn alussa uusia jäseniä! Voit tulla kokeilemaan parille ensimmäiselle kerralle ilman sitoutumista. Sinulla tulisi olla 1-2 vuotta kokemusta kansantanssin säännöllisestä treenaamisesta joko muusta koreoryhmästä tai paritanssitunneilta (vähintään vahvat perusteet sotiisista, polskasta ja valssista).
         </p>
       </section>
 
@@ -110,13 +109,10 @@ export default function () {
         <h1>Helsingin Nuorisoseura</h1>
 
         <p>
-          Etiam luctus, nunc eget vulputate porttitor, ipsum tortor elementum metus, vitae feugiat massa turpis eu leo. Ut mattis felis sit amet mauris congue suscipit. Quisque ligula dolor, mollis quis nisi vitae, faucibus suscipit mauris. Aenean venenatis turpis vel tortor ultricies hendrerit. Nam ut leo leo. Sed dapibus ex ut felis rutrum porta. In euismod libero in velit rutrum porttitor. Ut ac cursus neque.
+          Helsingin Nuorisoseura ry on vuonna 1954 perustettu aatteellinen yhdistys. Yhdistyksen tarkoituksena on xxxxxxxxxxxxxxxxxxxxxxxxxx.
         </p>
         <p>
-          Nullam tristique laoreet consectetur. Nunc vitae tempus lorem. Duis auctor, neque sit amet vestibulum tristique, dolor magna efficitur tellus, ut fermentum augue eros quis tellus. Morbi massa odio, congue at risus ac, sagittis placerat enim. Mauris ac erat et diam sagittis sollicitudin. Sed arcu purus, dapibus at lobortis vitae, sodales quis leo. Nunc arcu diam, malesuada sed eros non, molestie tincidunt sapien. Fusce lobortis felis a auctor consequat. Sed eu leo ac est sollicitudin pretium. Aenean tincidunt id dolor quis rhoncus. Pellentesque scelerisque nec mi sed pellentesque. Aenean sit amet nulla ut nulla dignissim vulputate vitae id turpis. Sed varius commodo magna, lobortis vulputate magna porttitor nec. Suspendisse vehicula ac turpis sed consectetur. Phasellus convallis, orci condimentum cursus sodales, metus augue rutrum mi, consectetur imperdiet nisl mauris sit amet nibh. Aenean luctus felis quis lorem vehicula euismod.
-        </p>
-        <p>
-          Morbi mauris neque, facilisis vitae nisi vitae, accumsan varius dolor. Praesent commodo metus quis porta molestie. In tempor, libero sit amet sollicitudin molestie, elit lacus mattis lacus, a ullamcorper nisl neque at tellus. Nulla et libero sodales, faucibus velit non, interdum ipsum. Cras dignissim orci et nibh venenatis, id placerat lacus suscipit. Nunc ac leo vitae nibh congue cursus. Proin eu diam volutpat, rhoncus diam a, vestibulum ante. Nunc mi ex, mollis porta vulputate in, lobortis sed enim. Pellentesque ut porta mauris. Etiam faucibus pulvinar mollis.
+          Vuosien mittaan Helsingin Nuorisoseuralla on ollut erilaisia painotuksia, mutta tällä hetkellä se on pääasiassa kotiseura kahdelle helsinkiläiselle tanssiryhmälle: Ristailer ja Susirekka.
         </p>
       </section>
 

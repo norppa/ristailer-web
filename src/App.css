@@ -1,164 +1,117 @@
-.App {
+header {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
 
-  header {
-    position: sticky;
+
+  .content {
+    width: 1200px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 20px;
-
-
-    .content {
-      width: 1200px;
-      display: flex;
-      justify-content: space-between;
-    }
-
-    nav {
-      height: 60px;
-      display: flex;
-      font-family: Fredoka;
-
-      .selected {
-        background: #2E3C29;
-        color: white;
-      }
-
-      button {
-        display: inline-block;
-        padding: 12px 12px;
-        color: #2E3C29;
-        background: none;
-        border: none;
-        cursor: pointer;
-        width: 160px;
-        font-size: 1.8em;
-
-        clip-path: polygon(10% 0,
-            100% 0,
-            90% 100%,
-            0 100%);
-
-        &.selected,
-        &:hover {
-
-          background: #2E3C29;
-          color: white;
-        }
-      }
-
-
-
-
-
-
-    }
+    justify-content: space-between;
   }
 
-  .hero {
-    /* background: #556B2F; */
-    margin-top: 40px;
+  nav {
+    height: 60px;
     display: flex;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
+    font-family: Fredoka;
 
-    img {
-      display: block;
-      width: 100%;
-      height: auto;
-
-      clip-path: polygon(0 12%,
-          100% 0,
-          100% 88%,
-          0 100%);
-
-    }
-  }
-
-  .hero::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 5.4vw;
-    background: #C49A5A;
-    ;
-
-    clip-path: polygon(0 100%,
-        100% 0,
-        100% 100%,
-        0 100%);
-  }
-
-  .highlight {
-    background-color: #C49A5A;
-    color: white;
-    text-align: center;
-    padding: 20px 0 40px 0;
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    h2 {
-      font-size: 3em;
-      margin-bottom: 0;
-    }
-
-    i {
-      font-size: 2em;
-
+    .selected {
+      background: #2E3C29;
+      color: white;
     }
 
     button {
-      margin-top: 30px;
-      font-size: 2em;
-      text-transform: uppercase;
-      width: fit-content;
-
       display: inline-block;
-      padding: 24px 48px;
-      background: #2E3C29;
-      color: white;
+      padding: 12px 12px;
+      color: #2E3C29;
+      background: none;
       border: none;
       cursor: pointer;
+      width: 160px;
+      font-size: 1.8em;
 
       clip-path: polygon(10% 0,
           100% 0,
           90% 100%,
           0 100%);
+
+      &.selected,
+      &:hover {
+
+        background: #2E3C29;
+        color: white;
+      }
     }
+
+  }
+}
+
+.hero {
+  /* background: #556B2F; */
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    clip-path: polygon(0 12%,
+        100% 0,
+        100% 88%,
+        0 100%);
+
+  }
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5.4vw;
+  background: #C49A5A;
+  ;
+
+  clip-path: polygon(0 100%,
+      100% 0,
+      100% 100%,
+      0 100%);
+}
+
+
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  margin: 30px auto 100px auto;
+  font-size: 1.4em;
+
+
+  h3 {
+    margin: 0;
   }
 
-  .links {
+  &>div {
     display: flex;
-    justify-content: space-around;
-    width: 1200px;
-    margin: 30px auto 100px auto;
-    font-size: 1.4em;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  img {
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 50%;
 
-    h3 {
-      margin: 0;
-    }
-
-    &>div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    img {
-      margin-top: 20px;
-      width: 300px;
-      border-radius: 50%;
-
-      box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    }
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -167,7 +120,9 @@
   font-size: 5em;
 }
 
-#ristailer, #treeni, #seura {
+#ristailer,
+#treeni,
+#seura {
   font-size: 1.4em;
   width: 1200px;
   margin: auto;
@@ -184,8 +139,6 @@
 
 .spacer {
   width: 100%;
-  height: 160px;
-  margin: 30px 0;
 }
 
 .spacer.reversed {
@@ -196,4 +149,175 @@
   display: block;
   margin: 50px auto 10px auto;
   width: 1200px;
+}
+
+.highlight {
+  position: relative;
+  background-color: #C49A5A;
+  color: white;
+  text-align: center;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  button {
+    margin-top: 30px;
+    font-size: 2em;
+    text-transform: uppercase;
+    width: fit-content;
+
+    display: inline-block;
+    padding: 24px 48px;
+    background: #2E3C29;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    clip-path: polygon(10% 0,
+        100% 0,
+        90% 100%,
+        0 100%);
+  }
+}
+
+@media (width > 768px) {
+  .hero {
+    display: flex;
+  }
+
+  .splash {
+    display: none
+  }
+
+  .highlight {
+
+    padding: 20px 0 40px 0;
+
+    h2 {
+      font-size: 3em;
+      margin-bottom: 0;
+    }
+
+
+    i {
+      font-size: 2em;
+    }
+  }
+
+  .spacer {
+
+    height: 160px;
+    margin: 30px 0;
+  }
+}
+
+
+@media (width <=768px) {
+
+  .hero,
+  .desktop-nav,
+  .links {
+    display: none;
+  }
+
+  .splash {
+    display: flex;
+    position: relative;
+
+    .splash-img {
+      width: 100%;
+    }
+
+    .logo {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000000;
+      font-size: 20vw;
+      top: 35vw;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 5.4vw;
+      background: #C49A5A;
+
+      clip-path: polygon(0 100%,
+          100% 0,
+          100% 100%,
+          0 100%);
+    }
+  }
+
+  .highlight {
+
+    padding: 20px 0 60px 0;
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 0;
+    }
+
+
+    i {
+      font-size: 1.6em;
+    }
+
+    button {
+      font-size: 1em;
+
+      padding: 12px 24px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 7vw;
+      background: var(--color-bg);
+
+      clip-path: polygon(0 0,
+          100% 100%,
+          0 100%,
+          0 0);
+    }
+  }
+
+  #ristailer,
+  #treeni,
+  #seura {
+    font-size: 1.4em;
+    margin: auto;
+    width: 100%;
+
+    h1 {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    p {
+      padding: 10px;
+    }
+
+    &>div {
+      width: 1200px;
+      margin: auto;
+    }
+  }
+
+  .last-image {
+    width: 100%;
+  }
+
+
+
 }
