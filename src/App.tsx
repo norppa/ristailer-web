@@ -24,8 +24,8 @@ export default function () {
               <button className={page === "train" ? "selected" : ""}>Treenit</button>
             </a>
 
-            <a href="#seura">
-              <button className={page === "org" ? "selected" : ""}>Seura</button>
+            <a href="#yhteys">
+              <button className={page === "org" ? "selected" : ""}>Ota yhteyttä</button>
             </a>
 
           </nav>
@@ -47,28 +47,28 @@ export default function () {
         <h2>Uusi kausi starttaa syyskuussa!</h2>
         <i>Ristailer ottaa uusia jäseniä iloiseen porukkaan</i>
 
-        <button><span>Liity mukaan</span></button>
+        <button className="join-button"><a href="#mukaan">Liity mukaan</a></button>
       </section>
 
       <section className="links">
 
-        <div>
+        <a href="#ristailer">
           <h3>Mikä on Ristailer?</h3>
-          <i>Ketä täällä tanssii ja kuka voi liittyä mukaan?</i>
+          <i>Ketä täällä tanssii ja mitä tanssitaan?</i>
           <img src="/img/ristailer-ryhma.webp" />
-        </div>
+        </a>
 
-        <div>
+        <a href="#treeni">
           <h3>Treenit</h3>
           <i>Miten, missä ja milloin treenataan?</i>
           <img src="/img/ristailer-treeni.webp" />
-        </div>
+        </a>
 
-        <div>
-          <h3>Helsingin Nuorisoseura</h3>
-          <i>Ristailer toimii HNS:n alaisuudessa</i>
+        <a href="#yhteys">
+          <h3>Ota yhteyttä</h3>
+          <i>Ristailer vastaa kysymyksiin!</i>
           <img src="/img/ristailer-seura.webp" />
-        </div>
+        </a>
       </section>
 
       <section id="ristailer">
@@ -79,7 +79,7 @@ export default function () {
           Ristailer on vuonna 2025 perustettu helsinkiläinen aikuisten tanssiryhmä, joka treenaa tanssinopettaja ja koreografi Jari Haaviston johdolla esittävää suomalaista kansantanssia. Harjoittelemme kansantanssin tekniikkaa, pari- ja ryhmäkontaktia sekä Jarin Ristailerille luomia koreografioita. Meitä yhdistää tanssin ilo ja tavoitteenamme on esitettävä taso.
         </p>
         <p>
-          Olemme kiinnostuneita esiintymismahdollisuuksista ja voimme tehdä jonkin verran myös pro bono -keikkoja, jos tilaisuutesi edistää tanssikulttuuria tai on muuten hyvään tarkoitukseen. Ole rohkeasti yhteydessä meihin.
+          Olemme kiinnostuneita esiintymismahdollisuuksista ja voimme tehdä jonkin verran myös pro bono -keikkoja, jos tilaisuutesi edistää tanssikulttuuria tai on muuten hyvään tarkoitukseen. <a href="#yhteys">Ole rohkeasti yhteydessä</a> meihin.
         </p>
       </section>
 
@@ -91,10 +91,19 @@ export default function () {
         <h1>Treenit</h1>
 
         <p>
-          Ristailerilla on vakiotreenit maanantaisin klo 19.30–21.00 Karviaisten koululla (Karviaistentie 1, noin 10 minuutin kävelymatka Malmin rautatieasemalta). Syksyn treenikausi on dd.mm.-dd.mm. ja syksyn kausimaksu on noin x € ja Helsingin Nuorisoseuran jäsenmaksu y € (kausimaksujen suuruutta säädetään osallistujien lukumäärän mukaan).
+          Ristailerilla on vakiotreenit maanantaisin klo 19.30–21.00 Karviaisten koululla (Karviaistentie 1, noin 10 minuutin kävelymatka Malmin rautatieasemalta). Syksyn treenikausi on 24.8. - 7.12.2026. Treenaamisen kulut katetaan osallistumismaksulla, joka on lukukaudelta noin 150 €.
         </p>
         <p>
-          Ristailer ottaa syksyn alussa uusia jäseniä! Voit tulla kokeilemaan parille ensimmäiselle kerralle ilman sitoutumista. Sinulla tulisi olla 1-2 vuotta kokemusta kansantanssin säännöllisestä treenaamisesta joko muusta koreoryhmästä tai paritanssitunneilta (vähintään vahvat perusteet sotiisista, polskasta ja valssista).
+          Ristailerissa harjoitellaan kansantanssia niin ryhmä-, pari- kuin yksilölajina. Treeneissä hiotaan henkilökohtaista tekniikkaa, vartalonhallintaa, hyppyjä, pyörintöjä, jalkatyöskentelyä, kehorytmejä ja vaikka mitä. Paritanssipuolella otetaan haltuun esiintymislavalle (ja miksei jamehinkin!) sopivia kuvioita, hiotaan parikontaktia ja harjoitellaan improvisaatiota. Ryhmäkoreografioissa pidetään kasassa kuvioita, vahvistetaan yhdenaikaisuutta ja etsitään ilmaisuvoimaa. Ja välillä ihan vaan höpsötellään, nauretaan ja nautitaan hikoilemisesta ja hyvästä seurasta.
+        </p>
+
+        <h2 id="mukaan">Liity mukaan</h2>
+        <p>
+          <b>Ristailer ottaa syksyn alussa uusia jäseniä!</b> Voit tulla kokeilemaan parille ensimmäiselle kerralle ilman sitoutumista. Reeneihin et tarvitse kummoisia varusteita: ota mukaasi treenivaatteet, juomapullo ja hyvää mieltä. Ristailerin meiningissä pysyy mukana melko pienelläkin kokemuksella. On hyödyllistä osata perusteet yleisimmistä kansanparitansseista, mutta jos on valmis tekemään vähän ekstraa kauden alussa tai omaa kokemusta muista tanssilajeista, niin ilmankin pärjää! Tärkeintä on halu oppia ja nauttia tanssista.
+        </p>
+
+        <p>
+          Kauden ensimmäiset treenit ovat 24.8.2026 klo 19:30-21:00. Voit saapua paikalle ilman ennakkoilmoittautumista. Jos haluat lisätietoja treeneistä, treenikulttuurista, vaatimustasoista, sisällöstä tai Ristailerin toiminnasta ylipäänsä, <a href="#yhteys">ota yhteyttä</a> meihin!
         </p>
       </section>
 
@@ -102,8 +111,40 @@ export default function () {
 
       <img className="spacer" src="/img/spacer-2.webp" />
 
+      <section id="yhteys">
 
-      <section id="seura">
+        <h1>Ota yhteyttä</h1>
+
+        <form action="https://formspree.io/f/mkolqbzk" method="POST">
+          <label>
+            Sähköpostiosoitteesi
+            <input type="email" name="email" placeholder="erkki.esimerkki@sahkoposti.fi" required />
+          </label>
+          <label>
+            Yhteydenoton aihe
+            <select name="topic">
+              <option></option>
+              <option>Olen kiinnostunut liittymään ryhmään</option>
+              <option>Haluan Ristailerin keikalle</option>
+              <option>Muu aihe</option>
+            </select>
+          </label>
+          <label>
+            Viesti
+            <textarea name="message" placeholder="Kirjoita viestisi tähän" required />
+          </label>
+          <input
+            type="text"
+            name="_gotcha"
+            style={{ display: "none" }}
+          />
+
+          <button type="submit">Lähetä</button>
+        </form>
+      </section>
+
+
+      {/* <section id="seura">
 
 
         <h1>Helsingin Nuorisoseura</h1>
@@ -114,7 +155,7 @@ export default function () {
         <p>
           Vuosien mittaan Helsingin Nuorisoseuralla on ollut erilaisia painotuksia, mutta tällä hetkellä se on pääasiassa kotiseura kahdelle helsinkiläiselle tanssiryhmälle: Ristailer ja Susirekka.
         </p>
-      </section>
+      </section> */}
 
 
       <img className="last-image" src="/img/ristailer-3.webp" />
