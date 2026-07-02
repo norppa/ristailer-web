@@ -199,7 +199,6 @@ header {
 }
 
 form {
-  width: 800px;
   padding: 30px;
   border: 1px solid black;
   border-radius: 6px;
@@ -344,12 +343,14 @@ form {
 
   #ristailer,
   #treeni,
-  #seura {
-    font-size: 1.4em;
+  #seura,
+  #yhteys {
+    font-size: 1.3em;
     margin: auto;
     width: 100%;
+    padding: 0.4em;
 
-    h1 {
+    h1, h2 {
       text-align: center;
       margin-top: 10px;
     }
@@ -364,9 +365,20 @@ form {
     }
   }
 
+  form {
+    padding: 0.8em;
+
+    button {
+      font-size: 0.8em;
+      padding: 3px 12px;
+    }
+  }
+
   .last-image {
     width: 100%;
   }
+
+
 
 
 
