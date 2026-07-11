@@ -91,7 +91,7 @@ export default function () {
         <h1>Treenit</h1>
 
         <p>
-          Ristailerilla on vakiotreenit maanantaisin klo 19.30–21.00 Karviaisten koululla (Karviaistentie 1, noin 10 minuutin kävelymatka Malmin rautatieasemalta). Syksyn treenikausi on 24.8. - 7.12.2026. Treenaamisen kulut katetaan osallistumismaksulla, joka on lukukaudelta noin 150 €.
+          Ristailerilla on vakiotreenit maanantaisin klo 19.30–21.00 Karviaisten koululla (Karviaistie 1, noin 10 minuutin kävelymatka Malmin rautatieasemalta). Syksyn treenikausi on 24.8. - 7.12.2026. Treenaamisen kulut katetaan osallistumismaksulla, joka on lukukaudelta noin 150 €.
         </p>
         <p>
           Ristailerissa harjoitellaan kansantanssia niin ryhmä-, pari- kuin yksilölajina. Treeneissä hiotaan henkilökohtaista tekniikkaa, vartalonhallintaa, hyppyjä, pyörintöjä, jalkatyöskentelyä, kehorytmejä ja vaikka mitä. Paritanssipuolella otetaan haltuun esiintymislavalle (ja miksei jamehinkin!) sopivia kuvioita, hiotaan parikontaktia ja harjoitellaan improvisaatiota. Ryhmäkoreografioissa pidetään kasassa kuvioita, vahvistetaan yhdenaikaisuutta ja etsitään ilmaisuvoimaa. Ja välillä ihan vaan höpsötellään, nauretaan ja nautitaan hikoilemisesta ja hyvästä seurasta.
